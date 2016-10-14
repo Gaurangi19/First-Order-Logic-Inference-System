@@ -16,7 +16,7 @@ The remaining lines contain the clauses in the knowledge base, one per line . Ea
 1) as an implication of the form p1 ∧ p2 ∧ ... ∧ pn ⇒ q , whose premise is a conjunction of atomic sentences and whose conclusion is a single atomic sentence.  
 2) as a fact with a single atomic sentence: q . Each atomic sentence is a predicate applied to a certain number of arguments.
 
-**Output**
+**Output**  
 The process of backwardchaining should be printed to a file called output.txt . Given the sample input above, the output content should be as follows:  
 Ask: Traitor(Anakin)  
 Ask: ViterbiSquirrel(Anakin)  
